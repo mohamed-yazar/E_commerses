@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box; 
+        font-family: 'Poppins', sans-serif;  
+        user-select: none;
+        
+}
+body{
+    background-color: black;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+   
+   
+   
+}
+.slogan h2{
+    color:white;
+    font-weight: 200;
+    text-align: center;
+    box-sizing: border-box;
+}
+.slogan{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.slogan #color{
+    color:#e1a446;
+    margin-left: 10px;
+}
+.text pre{
+    color:white;
+    letter-spacing: 3.5px;
+}
+.text{
+    margin:10px;
+    padding: 10px;
+}
+.sep{
+    display: flex;
+}
+.vedios{
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.vedios video{
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+}
+.images{
+   display: flex;
+   margin:10px;
+   margin-left: 20px;
+}
+.img1{
+    margin:10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+}
+.img2{
+    margin:10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+}
+.img3{
+    margin:10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+}
+.img1:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+    margin-top: 20px;
+     margin-bottom: 20px;
+}
+.img2:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img3:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.final{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.texts pre {
+    color:white;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.finalimg{
+   margin-right: 80px;
+}
+.footer  i{
+    color:white;
+}
+.footer a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.login:hover{
+    background-color: red;
+    padding: 6px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s;
+    border-radius: 9px;
+}
+.about:hover{
+    background-color: red;
+    padding: 6px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s;
+    border-radius: 9px;
+}
+.cart:hover{
+    background-color: red;
+    padding: 6px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s;
+    border-radius: 9px;
+}
+.login{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s; 
+}
+.about{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s; 
+}
+.cart{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1.5s; 
+}
+.logo img{
+    cursor: pointer;
+}
+.finalimg img{
+    cursor:pointer;
+}
